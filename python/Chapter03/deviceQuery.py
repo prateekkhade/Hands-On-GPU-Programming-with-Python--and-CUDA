@@ -28,7 +28,7 @@ for i in range(drv.Device.count()):
 	cuda_cores_per_mp= {5.0: 128, 5.1: 128, 5.2: 128, 6.0: 64, 6.1: 128, 6.2: 128}[compute_capability]
 
 	# Printing the number of multiprocessors and cuda cores per mp
-	print('Multiprocessors, ({}) \nCUDA Cores/Multiprocessors: {} CUDA Cores'.format(num_mp, cuda_cores_per_mp, num_mp*cuda_cores_per_mp))
+	print('{} Multiprocessors\t{} CUDA Cores/Multiprocessor\t{} CUDA Cores'.format(num_mp, cuda_cores_per_mp, num_mp*cuda_cores_per_mp))
 
 	# All attributes
 	device_attributes.pop('MULTIPROCESSOR_COUNT')
