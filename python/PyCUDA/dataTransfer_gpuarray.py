@@ -1,5 +1,5 @@
 '''
-Transferring data to and from the GPU with gpuarray, doing some arithmetic(multiplting by 2 in this case).
+Transferring data to and from the GPU with gpuarray, doing some arithmetic(multiplting by 2 in this case), and getting data back to the host.
 '''
 import numpy as np
 import pycuda.autoinit # Here we use autoinit
