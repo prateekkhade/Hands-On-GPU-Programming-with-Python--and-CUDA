@@ -1,5 +1,5 @@
 '''
-My own version of deviceQuery.py written as per the book - Hand On GPU programming with Python and CUDA
+My own version of deviceQuery.py written as per the book - Hand On GPU programming with Python and CUDA.
 '''
 import pycuda.driver as drv
 drv.init()
